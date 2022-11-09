@@ -17,11 +17,12 @@ public class Main {
 //        }
 //        for (int count = 1; count < 16; count += 2) {
 //            System.out.println(count + " ");
-        for (int i = 5; i > 0; i++) {
-            System.out.println(i);
-        }
-        System.out.print("end");
+        String print = "Print Me!";
 
+        for(int i = 0; i <= print.length(); i++)
+        {
+            System.out.println(print.substring(i, i + 1));
+        }
 
 
 
